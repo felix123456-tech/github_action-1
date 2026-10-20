@@ -10,7 +10,7 @@ jobs:
       - name: clone repository
         run: |
           git clone https://github.com/felix123456-tech/github_action-1
-          cd github-action-1
+          cd github_action-1
       #- name: before checkout
       #  run: |
       #    pwd
