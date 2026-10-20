@@ -16,7 +16,7 @@ jobs:
           pwd
           ls -lh
       - name: checkout code
-        uses: actions/checkout@v8
+        uses: actions/checkout@v6
       - name: after checkout
         run: |
           pwd
