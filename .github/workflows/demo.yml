@@ -27,7 +27,7 @@ jobs:
 build_on_windows:
  runs-on: windows-latest
  steps:
-  - name: run multi-line description
+  - name: run multi-line script
    run: |
-     echo "hello gihub actions"
+     echo "hello github actions"
      Get-Date
